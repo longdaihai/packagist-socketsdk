@@ -1,0 +1,24 @@
+{
+    "name": "longdaihai/socketsdk",
+    "description": "socketsdk plugin",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": ["longdaihai","php","socket","sdk","websocket"],
+    "authors": [
+        {
+            "name": "HanSheng",
+            "email": "164897033@qq.com",
+            "homepage": "https://gitee.com/haiyunyi_cn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "longdaihai\\socketsdk\\": "src"
+        }
+    }
+}
